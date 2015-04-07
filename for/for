@@ -1,0 +1,7 @@
+
+from = 10 
+to = 20
+
+for i in from..to
+  puts i
+end
