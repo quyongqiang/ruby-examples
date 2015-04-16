@@ -9,4 +9,6 @@ class A
 end
 
 A.a
+A.b
+A.new.a
 A.new.b
