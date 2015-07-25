@@ -1,5 +1,8 @@
 # from remote repo
 gem install foreman
 
-# install from local file
-gem install /data/tools/foreman-0.78.0.gem 
+# install from local file,  download de gem package from rubygems
+gem install /data/tools/foreman-0.78.0.gem
+
+
+
