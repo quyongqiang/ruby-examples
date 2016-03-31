@@ -1,0 +1,8 @@
+dot in ruby is all method call.
+
+in python, if you
+	self.a = 1
+a is attribute
+
+
+in ruby,self.a, a is always treated as a method.
