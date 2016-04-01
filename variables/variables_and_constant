@@ -1,0 +1,32 @@
+# local variable
+_name
+name
+_var
+var
+
+
+# global variable
+$name
+$var
+
+# instance variable
+@name
+@var
+
+# class variable
+@@name
+@@var
+
+# constant
+Name
+Var
+class HelloWrold
+  Version = "1.0"
+  ...
+end
+
+p HelloWorld::Version
+
+
+
+
