@@ -18,6 +18,7 @@ class Person
   @@num_of_hands = 2
 
   # class method , or use def Person.haircolors
+  # this self represents current class
   def self.haircolors
     @@haircolors
   end
@@ -28,7 +29,8 @@ class Person
 
 
   def initialize(f, l, a)
-    @fname = f
+    # this self represents current instant
+    self.fname = f
     @lname = l
     @age = a
   end
