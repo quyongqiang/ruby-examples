@@ -1,9 +1,9 @@
 
 # 这样有何用处？
 def block_args_test
-  yield()
-  yield(1)
-  yield(1, 2, 3)
+  yield()           # 0 block arg
+  yield(1)          # 1 block arg
+  yield(1, 2, 3)    # 3 block args
 end
 
 puts "通过|a|接收块变量"
