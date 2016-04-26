@@ -6,3 +6,8 @@ p lang
 # symbol array
 lang = %i(Ruby Perl Python Scheme Pike REBOL)
 p lang
+
+arr = [1, 2, 3, 4, 5]
+
+p arr[1..3]
+p arr[1...3]

@@ -15,20 +15,19 @@ class Greeting
     @text
   end
 
-
-  
   def a
     @a
   end
-  
 
 end
 my_object = Greeting.new("Hello")
 
 
 #p my_object.a
+
+# class var
 p Greeting::A
-p Greeting.c_var
+p Greeting.c_var  # class method
 p my_object.class                             # => Greeting
 p my_object.class.instance_methods(false)     # => [:welcome]
 p my_object.instance_variables                # => [:@text]
