@@ -9,5 +9,7 @@ p lang
 
 arr = [1, 2, 3, 4, 5]
 
+# slice
+p arr.slice 1,3
 p arr[1..3]
 p arr[1...3]

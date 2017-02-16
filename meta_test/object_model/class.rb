@@ -1,4 +1,4 @@
-nil -> BasicObject -> Object -> Module -> Class -> obj  ?
+nil -> BasicObject(class) -> Kernel(a Module) -> Object(class) -> Module -> Class -> obj  ?
 Class, Module, Object, BasicObject be called by a joint name Class. 这些都统称为类。  ?
 - 什么是对象？
 一组实例变量外加一个指向其类的引用。对象的方法并不存在于对象本身，而是存在于对象的类中。
