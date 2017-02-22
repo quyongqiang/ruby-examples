@@ -32,3 +32,4 @@ p = Person.new("Brian", "Hoke", 44)
 puts p
 
 puts Person.haircolors
+puts Person::haircolors

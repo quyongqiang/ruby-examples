@@ -18,5 +18,5 @@ obj.instance_eval do
 end
 
 v = 2
-obj.instance_eval { @v = v }
-obj.instance_eval { @v }      # => 2
+p obj.instance_eval { @v = v }
+p obj.instance_eval { @v }      # => 2

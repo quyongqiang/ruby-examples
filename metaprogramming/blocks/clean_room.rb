@@ -14,6 +14,7 @@ class CleanRoom
   
   def do_something
     # ...
+    puts "here"
   end
 end
 

@@ -10,8 +10,12 @@ def my_method
   yield(2)
 end
 
-x = 1
+x = 1 
 my_method do |x|
   # do nothing special
+  p x   # => 2
 end
-x   # => 2
+
+
+
+p x   # => 1

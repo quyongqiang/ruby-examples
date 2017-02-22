@@ -12,4 +12,4 @@ def my_method
 end
 
 x = "Hello"
-my_method {|y| "#{x}, #{y} world" } # => "Hello, cruel world"
+p my_method {|y| "#{x}, #{y} world" } # => "Hello, cruel world"

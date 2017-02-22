@@ -29,3 +29,6 @@ p s1::name
 
 # p Stu.Version
 p Stu::Version
+
+# err
+# p Stu.Version

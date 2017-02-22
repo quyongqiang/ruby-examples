@@ -18,9 +18,9 @@ end
 
 object = MyClass.new(1)
 m = object.method :my_method
-m.call                            # => 1
+p m.call                            # => 1
 
 unbound = m.unbind
 another_object = MyClass.new(2)
 m = unbound.bind(another_object)
-m.call                            # => 2
+p m.call                            # => 2
